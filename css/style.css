@@ -25,7 +25,7 @@ header{border: 1px solid #626262;
 }
 
 
-.container{borde:1px solid red ;
+.container{
     width: 90%;
     margin: 0 auto;
     overflow:hidden;
@@ -33,7 +33,7 @@ header{border: 1px solid #626262;
 
 }
 
-.logo{borde:1px solid red ;
+.logo{
     margin-top: 10px;
     width: 12%;
     float: left;
@@ -45,7 +45,7 @@ header{border: 1px solid #626262;
 
 }
 
-.menu{borde:1px solid red ;
+.menu{
     width: 65%;
     float: right;
 
