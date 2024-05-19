@@ -1,0 +1,83 @@
+/*font family start*/
+
+/*playfair display*/@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');/*font-family: "Playfair Display", serif;*/
+
+/*ubuntu*/@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');/*font-family: "Ubuntu", sans-serif;*/
+
+/*Inconsolata*/@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');/*font-family: "Inconsolata", monospace;*/
+
+/*font family end*/
+
+/*common start*/
+body{
+    font-family:"Playfair Display", serif;;
+    font-size: 16px;
+    font-weight:400 ;
+    color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header{border: 1px solid #626262;
+    padding: 30px 0px;
+}
+
+
+.container{borde:1px solid red ;
+    width: 90%;
+    margin: 0 auto;
+    
+
+}
+
+.logo{borde:1px solid red ;
+    margin-top: 10px;
+    width: 12%;
+    float: left;
+
+}
+
+.logo a img{
+    width: 100%;
+
+}
+
+.menu{borde:1px solid red ;
+    width: 65%;
+    float: right;
+
+}
+
+.menu ul{
+    float: right;
+
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 55px;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+
+}
+
+.menu ul li:last-child a{
+    margin-right: 0px;
+
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+
+}
+
+/*header end*/
